@@ -1,0 +1,15 @@
+### GET employees
+GET http://localhost:8080/employees
+Accept: application/json
+
+### New employee
+POST http://localhost:8080/employees
+Content-Type: application/json
+
+{
+  "employeeId": "E0004",
+  "firstName": "Mark",
+  "lastName": "Albrand",
+  "email": "mark.albrand5@gmail.com",
+  "title": "Software Engineer"
+}
